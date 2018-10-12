@@ -1,0 +1,302 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+/*header*/
+
+header {
+    width: 100%;
+    height: auto;
+    background-image: url("../img/mainImg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    padding-top: 20px;
+}
+
+.menu {
+
+}
+
+.menu__item {
+    padding-top: 40px;
+    padding-right: 35px;
+    padding-bottom: 40px;
+
+}
+
+.menu__item a {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.offer {
+    display: block;
+    margin-top: 300px;
+    margin-bottom: 237px;
+    width: auto;
+    height: auto;
+    /*border: 1px solid black;*/
+    padding-left: 35px;
+    padding-top: 45px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+
+    /*text-align: center;*/
+    /*background-color: #1b1e21;*/
+    /*opacity: 0.1;*/
+}
+
+.offer__title {
+    font-size: 60px;
+    font-weight: 600;
+
+
+}
+
+.offer__intro {
+    font-size: 30px;
+    font-weight: 700;
+
+
+}
+.offer__text {
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+/*section new Items*/
+
+.newItems {
+
+}
+.newItems__title {
+    padding-top: 100px;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(77, 90, 107);
+    padding-bottom: 20px;
+
+
+}
+
+hr {
+    color: orange;
+    background-color: orange;
+    height: 2px;
+}
+
+/*.col-md-3 {*/
+    /*margin-top: 80px;*/
+    /*background-color: rgb(237, 238, 240);*/
+    /*max-width: 263px;*/
+/*}*/
+
+.newItems__cars {
+    /*box-sizing: content-box;*/
+    margin-top: 80px;
+    background-color: rgb(237, 238, 240);
+    max-width: 263px;
+
+}
+
+.newItems__cars__image {
+    max-width: 100%;
+}
+
+.newItems__cars__name {
+
+    margin-top: 45px;
+    padding-bottom: 45px;
+    text-align: center;
+
+}
+
+.newItems__button {
+    margin: 80px auto 0;
+    padding: 10px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 2px solid rgb(255, 108, 0);
+    color: rgb(255, 108, 0);
+    background-color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+
+}
+
+/*aboutUs*/
+
+.aboutUs{
+    overflow: hidden;
+}
+
+.aboutUs__text {
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 5px;
+
+}
+.aboutUs__list{
+    padding-left: 45px;
+}
+
+.aboutUs__list li {
+
+    display: list-item;
+    font-size: 16px;
+    font-weight: bold;
+    list-style: square;
+}
+
+.aboutUs__img {
+    max-width: 472px;
+    height: auto;
+
+}
+
+.backCall {
+    width: 100%;
+    height: 800px;
+    background-image: url("../img/handOpenCar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.callForm {
+    width: auto;
+    /*height: 748px;*/
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-top: 105px;
+
+
+}
+.callForm__title {
+    padding-left: 105px;
+    padding-top: 115px;
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+}
+.callForm__text {
+    padding-left: 105px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+.form {
+    text-align: center;
+
+}
+input {
+    width: 360px;
+    border-radius: 20px;
+    padding: 15px 0 15px 40px;
+    margin-bottom: 25px;
+}
+
+textarea {
+    width: 360px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    padding: 15px 0 15px 40px;
+
+}
+
+.form__btn {
+
+    display: block;
+    width: 168px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background-color: rgb(255, 108, 0);
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 40px;
+    cursor: pointer;
+    /*margin-bottom: 50px;*/
+}
+
+.footer {
+    width: auto;
+    height: auto;
+    margin-top: 150px;
+    background-color: rgb(77, 90, 107);
+    color: white;
+    font-weight: 600;
+}
+
+.footer li {
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+.footer h2 {
+    padding-bottom: 40px;
+}
+
+.footer__img {
+    padding-top: 119px;
+    padding-right: 130px;
+    width: auto;
+}
+
+.footer__firstCol {
+    padding-right: 100px;
+    padding-top: 100px;
+}
+
+.footer__firstCol a {
+    color: white;
+}
+.footer__secondCol {
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+.footer__firstCol li:nth-child(2){
+    width: 200px;
+}
+
+.footer__secondCol li:first-child{
+    width: 150px;
+}
+.footer__firstCol h2 {
+    font-size: 25px;
+}
+.footer__secondCol h2 {
+    font-size: 25px;
+}
+.credits {
+    background-color: rgb(77, 90, 107);
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 992px){
+    /*.menu__item:first-child{*/
+        /*padding-left: -50px;*/
+    /*}*/
+
+    .menu__item:nth-child(2){
+        width: 100px;
+    }
+
+    .footer__img {
+        max-width: 100%;
+    }
+}
+
